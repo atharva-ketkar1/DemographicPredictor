@@ -9,4 +9,6 @@ results:
 SECOND IMPLEMENTATION:
 CNN with 4 Convolutional Blocks with Conv2D, BatchNormalization, and MaxPooling. It then Flattens and goes to 3 Fully Connected Layers(Age, Gender, Race) with Dropout(0.5) to try and combat overfitting.
 
+148/148 [==============================] - 6s 43ms/step - loss: 72.3999 - age_output_loss: 71.8970 - gender_output_loss: 0.1238 - race_output_loss: 0.3790 - age_output_mae: 6.6578 - gender_output_accuracy: 0.9502 - race_output_accuracy: 0.8790
 
+~ This means that the model is able to predict the age of a person where the age is off by approximately 6.66 years. Gender accuracy is 95.0% and Race accuracy is 87.9%
